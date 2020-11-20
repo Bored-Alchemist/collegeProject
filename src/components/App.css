@@ -1,0 +1,57 @@
+@media screen and (min-device-width: 1200px){
+  .App {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./icons/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 700px;
+  }
+  
+  .info {
+    position: relative;
+    top: 400px;
+  }
+
+  .btx {
+    width: 75vw;
+  }
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 700px){
+  .App {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./icons/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vmin 500px;
+  }
+  
+  .info {
+    position: relative;
+    top: 300px;
+    color: white
+  }
+
+  .btx {
+    width: 75vw;
+  }
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 1200px){
+  .App {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./icons/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+  }
+  
+  .info {
+    position: relative;
+    top: 300px
+  }
+
+  .btx {
+    width: 75vw;
+  }
+}
